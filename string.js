@@ -53,3 +53,16 @@ console.log("A = " + count2);
 
 // 3
 
+let prb = "savage";
+prb = prb.toLowerCase();
+if (
+  prb.includes("a") &&
+  prb.includes("e") &&
+  prb.includes("i") &&
+  prb.includes("o") &&
+  prb.includes("u")
+) {
+  console.log("All vowel are in present");
+} else {
+  console.log("All vowel are not in present");
+}
