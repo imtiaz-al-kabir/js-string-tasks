@@ -62,7 +62,7 @@ If a given string has either x, replace x by y. if the given string has X, repla
 
 let text = "xsavageX";
 console.log(text);
-let text1 = text.replace('x', 'y').replace('X','Y');
+let text1 = text.replace("x", "y").replace("X", "Y");
 
 console.log(text1);
 
@@ -70,3 +70,10 @@ console.log(text1);
 ### Task-5:
 Capitalize Every first Letter of each word in a String 
 */
+
+let sName = "imtiaz a dog";
+let firstChar = sName.slice(0, 1);
+firstChar = firstChar.toUpperCase();
+let restChar = sName.slice(1, sName.length);
+let result = firstChar.concat(restChar);
+console.log(result);
