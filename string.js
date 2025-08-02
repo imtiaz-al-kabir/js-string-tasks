@@ -77,3 +77,20 @@ firstChar = firstChar.toUpperCase();
 let restChar = sName.slice(1, sName.length);
 let result = firstChar.concat(restChar);
 console.log(result);
+
+/*
+### Task-6:
+check it is palindrome or not 
+*/
+
+let word = "kayak";
+let temp = "";
+for (let i = 0; i < word.length; i++) {
+  temp = word[i] + temp;
+}
+console.log(temp);
+if (word === temp) {
+  console.log("Palindrome");
+} else {
+  console.log("Not a Palindrome");
+}
